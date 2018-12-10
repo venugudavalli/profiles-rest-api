@@ -114,3 +114,5 @@ class LoginViewSet(viewsets.ViewSet):
         """Use the ObtainAuthToken APIView to validate and create a token."""
 
         return ObtainAuthToken().post(request)
+
+        #"token": "072342e299e6629223b9ca380848b01af347f367"
